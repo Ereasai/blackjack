@@ -1,0 +1,29 @@
+:root {
+  font-family: system-ui, sans-serif;
+  color: #202124;
+  background: #f7f7f7;
+}
+
+body {
+  margin: 0;
+}
+
+main {
+  max-width: 32rem;
+  margin: 4rem auto;
+  padding: 2rem;
+  background: white;
+  border: 1px solid #ddd;
+}
+
+#status[data-state="connected"] {
+  color: #08752c;
+}
+
+#status[data-state="disconnected"] {
+  color: #b42318;
+}
+
+button {
+  padding: 0.6rem 1rem;
+}
